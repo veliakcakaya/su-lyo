@@ -1,0 +1,110 @@
+header {
+    display: flex;
+}
+
+.logo {
+    width: 120px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#b70707;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.menu ul li a:hover {
+    color:#077e1d;
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    border: 2px dotted #b70707;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 2px 29px -3px rgba(0,26,128,0.72);
+    -moz-box-shadow: 0px 2px 29px -3px rgba(0,26,128,0.72);
+    box-shadow: 0px 2px 29px -3px rgba(0,26,128,0.72);
+}
+
+p {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+.text-red {
+    color:rgb(189, 7, 29) !important;
+}
+
+.text-blue {
+    color:#05a1e6;
+}
+
+.text-green {
+    color: #077e1d;
+}
+
+.text-white {
+    color:#ffffff;
+}
+
+.text-bold {
+    font-weight: bolder;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.cover-box {
+    border: 2px solid #077e1d;
+}
+
+.box-style1 {
+    background-color: aqua;
+    border-color: red;
+    border-style: dashed; 
+    border-width: 6px;
+    padding: 50px 10px 20px 10px;
+    margin: 50px 100px 20px 10px;
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #077e1d;
+    display: flex; /* Use flexbox for side-by-side layout */
+    justify-content: space-between; /* Optional: Space between the boxes */
+}
+
+.box {
+    width: 45%; /* Adjust the width as needed */
+    padding: 20px; /* Optional: Padding inside the boxes */
+    margin: 10px; /* Optional: Margin around the boxes */
+    background-color: lightblue; /* Optional: Background color */
+    border: 1px solid #ccc; /* Optional: Border */
+    text-align: center; /* Optional: Center text */
+}
